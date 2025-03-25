@@ -590,26 +590,47 @@ div.content ul li {
   border-radius: 8px;
 }
 .image-container3 img {
-    width: 500px;
-    border-radius: 8px;
-  }
-section.supp{
-    text-align: center;
+  width: 500px;
+  border-radius: 8px;
+}
+section.supp {
+  text-align: center;
+  color: white;
+  margin: 30px auto;
+  font-size: 20px;
+  padding: 20px 10px;
+}
+
+section.supp p {
+  color: #357aff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+section.supp h1 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+section.dynamic {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px 120px;
+}
+section.dynamic h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+section.dynamic div.keystone {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+section.wallets{
     color: white;
-    margin: 30px auto;
-    font-size: 20px;
-    padding: 20px 10px;
-}
-
-section.supp p{
-    color: #357aff;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-section.supp h1{
-    font-size: 40px;
-    font-weight: normal;
+    padding: 20px 120px;
 }
 
 @keyframes marquee-scroll {
@@ -758,6 +779,7 @@ section.supp h1{
   div.content {
     padding-right: 20px;
     padding-left: 20px;
+    margin: 0 auto;
   }
 
   .upgrade-btn {
@@ -772,8 +794,8 @@ section.supp h1{
     padding: 20px;
     text-align: center;
     display: block;
-  } 
-  .cont2 h1{
+  }
+  .cont2 h1 {
     font-size: 25px;
   }
 
@@ -783,23 +805,21 @@ section.supp h1{
     width: 450px;
     position: absolute;
     right: 0;
-
   }
   .security-section1 {
     display: block;
     padding: 50px 20px;
     margin-top: 360px;
   }
-  .security-section2{
+  .security-section2 {
     margin-top: 10px;
     display: flex;
     flex-direction: column-reverse;
     padding: 50px 20px;
     margin: 0 auto;
     text-align: center;
-
   }
-  .text-content h1{
+  .text-content h1 {
     font-size: 25px;
   }
   .text-content {
@@ -810,38 +830,43 @@ section.supp h1{
   }
   .info-boxes {
     display: inline-flex;
-
   }
 
-  .image-container2{
+  .image-container2 {
     text-align: center;
     margin-top: 30px;
   }
-  
-.image-container2 img {
+
+  .image-container2 img {
     width: 350px;
   }
 
-  .image-container3{
+  .image-container3 {
     text-align: center;
     margin-top: 30px;
     margin: 0 auto;
   }
-  
-.image-container3 img {
+
+  .image-container3 img {
     width: 400px;
   }
 
-  section.supp p{
+  section.supp p {
     color: #357aff;
     font-size: 15px;
     text-transform: uppercase;
-}
+  }
 
-section.supp h1{
+  section.supp h1 {
     font-size: 30px;
     font-weight: normal;
-}
+  }
+
+  section.dynamic {
+    display: block;
+text-align: center;
+    padding: 20px 20px;
+  }
 }
 @media (max-width: 1500px) {
 }
