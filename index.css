@@ -628,9 +628,9 @@ section.dynamic div.keystone {
   line-height: 30px;
 }
 
-section.wallets{
-    color: white;
-    padding: 20px 120px;
+section.wallets {
+  color: white;
+  padding: 20px 120px;
 }
 
 @keyframes marquee-scroll {
@@ -864,7 +864,11 @@ section.wallets{
 
   section.dynamic {
     display: block;
-text-align: center;
+    text-align: center;
+    padding: 20px 20px;
+  }
+
+  section.wallets {
     padding: 20px 20px;
   }
 }
