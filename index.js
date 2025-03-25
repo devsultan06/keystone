@@ -39,7 +39,7 @@ function closeBanner() {
   document.getElementById("banner").style.display = "none";
 }
 
-startCountdown(2 * 24 * 60 * 60 * 1000); // 2 days countdown
+startCountdown(2 * 24 * 60 * 60 * 1000);
 
 document.getElementById("hamburger").addEventListener("click", function () {
   document.getElementById("menu").classList.toggle("show");
@@ -49,18 +49,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const popup = document.getElementById("cookiePopup");
     const agreeBtn = document.getElementById("agreeBtn");
   
-    // Ensure popup is visible after animation completes
     setTimeout(() => {
       popup.style.opacity = "1";
       popup.style.visibility = "visible";
-    }, 2000); // 2s delay as per animation timing
+    }, 2000); 
   
-    // Hide popup when button is clicked
     agreeBtn.addEventListener("click", () => {
       popup.classList.add("hidden");
       setTimeout(() => {
-        popup.style.display = "none"; // Fully remove it
-      }, 300); // Matches transition time
+        popup.style.display = "none";
+      }, 300); 
     });
   });
   
